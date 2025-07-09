@@ -1,0 +1,26 @@
+[project]
+name = "corelanggraph"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Hari Narasimhan",email = "narasimhan3737@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain (>=0.3.26,<0.4.0)",
+    "langgraph (>=0.5.1,<0.6.0)",
+    "langchain-openai (>=0.3.27,<0.4.0)",
+    "langchain-tavily (>=0.2.7,<0.3.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)",
+    "langchain-google-genai (>=2.1.6,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+[tool.poetry.dependencies]  # or your specific tool's section
+python = ">=3.11,<4.0"
