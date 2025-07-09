@@ -42,6 +42,5 @@ app = flow.compile()
 app.get_graph().draw_mermaid_png(output_file_path="flow.png")
 
 if __name__ == "__main__":
-    print("Hello LanGraph")
-    res = app.invoke({"messages": [HumanMessage(content="What is the temperature in Tokyo? Take the temperature value and then triple it")]})
+    res = app.invoke({"messages": [HumanMessage(content="What is the temperature in Tokyo now? List the temperature value and then triple it")]})
     print(res["messages"][LAST].content)

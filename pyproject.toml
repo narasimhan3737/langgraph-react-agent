@@ -15,7 +15,8 @@ dependencies = [
     "black (>=25.1.0,<26.0.0)",
     "isort (>=6.0.1,<7.0.0)",
     "dotenv (>=0.9.9,<0.10.0)",
-    "langchain-google-genai (>=2.1.6,<3.0.0)"
+    "langchain-google-genai (>=2.1.6,<3.0.0)",
+    "grandalf (>=0.8,<0.9)"
 ]
 
 
